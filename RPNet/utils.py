@@ -12,7 +12,7 @@ from torch.autograd import Variable
 from torch.utils.data import DataLoader
 from torch.utils.data import TensorDataset
 
-from network import IncUNet
+from .network import IncUNet
 
 def obtain_data(args):
     #path = '../../Datasets/ECG/mitdb/'
